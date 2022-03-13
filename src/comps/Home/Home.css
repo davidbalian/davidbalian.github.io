@@ -1,0 +1,70 @@
+.home {
+	background-color: var(--yellow);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 14rem 12rem 12rem 12rem;
+}
+
+.home-cont h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 4rem;
+	font-weight: 600;
+	color: var(--red);
+	margin-bottom: 1rem;
+}
+
+.home-cont p {
+	font-family: "Roboto Mono";
+	color: var(--black);
+	width: 70ch;
+	margin-bottom: 1rem;
+}
+
+.home-cont button a {
+	color: var(--yellow);
+	text-decoration: none;
+}
+
+.home-cont button {
+	border: none;
+	font-family: "Roboto Mono", monospace;
+	padding: 0.5rem 1rem;
+	background-color: var(--red);
+	color: var(--yellow);
+}
+
+.home-cont button {
+	position: relative;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition: color 500ms;
+	transition: color 500ms;
+	cursor: pointer;
+}
+
+.home-cont button:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--black);
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition: 200ms ease-out;
+	transition: 200ms ease-out;
+}
+
+.home-cont button:hover:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}

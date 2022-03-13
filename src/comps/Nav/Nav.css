@@ -1,0 +1,87 @@
+.logo,
+.navlink {
+	font-family: "Roboto Mono";
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.navbar {
+	position: fixed;
+	width: 100vw;
+	height: 2rem;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	background-color: var(--yellow);
+	z-index: 999;
+}
+
+.navlinks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navlink {
+	margin-left: 1rem;
+	color: var(--black);
+	text-decoration: none;
+}
+
+.navlink:first {
+	margin-left: 0;
+}
+
+.navlink:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	color: var(--yellow);
+}
+
+.logo-cont {
+	cursor: pointer;
+	height: 100%;
+	width: 2rem;
+	position: relative;
+	background-color: var(--red);
+	position: relative;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition: color 500ms;
+	transition: color 500ms;
+}
+
+.logo-cont:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--black);
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition: 200ms ease-out;
+	transition: 200ms ease-out;
+}
+
+.logo-cont:hover:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
