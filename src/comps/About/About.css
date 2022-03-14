@@ -1,4 +1,24 @@
 .about {
-	min-height: calc(100vh - 2rem);
-	background-color: var(--red);
+	min-height: 100vh;
+	background-color: var(--black);
+	padding: 14rem 12rem 12rem 12rem;
+}
+
+.about h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 4rem;
+	font-weight: 600;
+	color: var(--yellow);
+	margin-bottom: 1rem;
+}
+
+.about section {
+	padding: 1rem 6rem;
+}
+
+.about p {
+	font-family: "Roboto Mono", monospace;
+	margin-bottom: 1rem;
+	color: var(--yellow);
+	line-height: 3;
 }

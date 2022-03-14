@@ -4,9 +4,9 @@ import "./Nav.css";
 const Nav = () => {
 	return (
 		<div className='navbar'>
-			<div className='logo-cont'>
+			<a href='#home' className='logo-link'>
 				<p className='logo'>DB</p>
-			</div>
+			</a>
 			<div className='navlinks'>
 				<a className='navlink' href='#home'>
 					Home

@@ -37,6 +37,7 @@
 
 .navlink:hover {
 	text-decoration: underline;
+	text-decoration-color: var(--red);
 }
 
 .logo {
@@ -49,7 +50,7 @@
 	color: var(--yellow);
 }
 
-.logo-cont {
+.logo-link {
 	cursor: pointer;
 	height: 100%;
 	width: 2rem;
@@ -62,7 +63,7 @@
 	transition: color 500ms;
 }
 
-.logo-cont:before {
+.logo-link:before {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -81,7 +82,7 @@
 	transition: 200ms ease-out;
 }
 
-.logo-cont:hover:before {
+.logo-link:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
