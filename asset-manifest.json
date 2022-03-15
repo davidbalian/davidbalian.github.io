@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55b4c44d.css",
+    "main.js": "/static/js/main.8c9c0e63.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/road-signs-ss.png": "/static/media/road-signs-ss.11d842c38efd7c5f9407.png",
+    "static/media/pomo-ss.png": "/static/media/pomo-ss.c5190961181fe9a037ac.png",
+    "static/media/bpm-ss.png": "/static/media/bpm-ss.a15c19de8f545ebdc626.png",
+    "static/media/git.svg": "/static/media/git.ba848c94307d6f64a99b677080dd937d.svg",
+    "static/media/at.svg": "/static/media/at.f86934a8ac53ca99a1a5de46e24ee6a9.svg",
+    "static/media/instagram.svg": "/static/media/instagram.39b83e26960c7eb89eb031e091f28477.svg",
+    "static/media/linked.svg": "/static/media/linked.267c26446318ed414114d44f03a0d9ef.svg",
+    "index.html": "/index.html",
+    "main.55b4c44d.css.map": "/static/css/main.55b4c44d.css.map",
+    "main.8c9c0e63.js.map": "/static/js/main.8c9c0e63.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55b4c44d.css",
+    "static/js/main.8c9c0e63.js"
+  ]
+}
