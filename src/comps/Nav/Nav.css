@@ -86,3 +86,21 @@
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
+	.navbar {
+		padding: 0 1rem;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	.navbar {
+		padding: 0 1rem 0 0;
+	}
+}
+
+@media screen and (max-width: 760px) {
+}

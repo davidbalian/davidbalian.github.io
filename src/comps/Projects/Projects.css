@@ -1,15 +1,12 @@
 .projects {
 	background-color: var(--yellow);
 	min-height: 100vh;
-	padding: 14rem 12rem 12rem 12rem;
+	padding: 12rem 12rem 12rem 12rem;
 }
 
 .projects h1 {
-	font-family: "Playfair Display", serif;
-	font-size: 4rem;
-	font-weight: 600;
 	color: var(--red);
-	margin-bottom: 12rem;
+	margin-bottom: 6rem;
 }
 
 .projects h2 {
@@ -52,4 +49,64 @@
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+	.projects {
+		padding: 12rem 8rem 12rem 8rem;
+	}
+
+	.projects-cont {
+		gap: 6rem;
+	}
+
+	.project {
+		padding: 4rem;
+		gap: 4rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.projects {
+		padding: 10rem 4rem 10rem 4rem;
+	}
+
+	.projects-cont {
+		gap: 4rem;
+	}
+
+	.project {
+		padding: 2rem;
+		gap: 2rem;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	.projects {
+		padding: 8rem 2rem 8rem 2rem;
+	}
+
+	.projects-cont {
+		gap: 4rem;
+	}
+
+	.project {
+		padding: 2rem;
+		gap: 2rem;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.projects {
+		padding: 6rem 1rem 6rem 1rem;
+	}
+
+	.projects-cont {
+		gap: 2rem;
+	}
+
+	.project {
+		padding: 1rem;
+		gap: 2rem;
+	}
 }

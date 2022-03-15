@@ -5,13 +5,9 @@
 }
 
 .about h1 {
-	font-family: "Playfair Display", serif;
-	font-size: 4rem;
-	font-weight: 600;
 	color: var(--yellow);
 	margin-bottom: 1rem;
 }
-
 .about section {
 	padding: 1rem 6rem;
 }
@@ -21,4 +17,40 @@
 	margin-bottom: 1rem;
 	color: var(--yellow);
 	line-height: 3;
+}
+
+@media screen and (max-width: 1200px) {
+	.about {
+		padding: 14rem 8rem 12rem 8rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.about {
+		padding: 10rem 4rem 10rem 4rem;
+	}
+
+	.about section {
+		padding: 1rem 4rem;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	.about {
+		padding: 8rem 2rem 8rem 2rem;
+	}
+
+	.about section {
+		padding: 1rem 2rem;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.about {
+		padding: 6rem 1rem 6rem 1rem;
+	}
+
+	.about section {
+		padding: 1rem 0em;
+	}
 }

@@ -17,6 +17,9 @@ const Nav = () => {
 				<a className='navlink' href='#projects'>
 					Projects
 				</a>
+				<a className='navlink' href='#contact'>
+					Contact
+				</a>
 			</div>
 		</div>
 	);

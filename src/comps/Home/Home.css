@@ -9,9 +9,6 @@
 }
 
 .home-cont h1 {
-	font-family: "Playfair Display", serif;
-	font-size: 4rem;
-	font-weight: 600;
 	color: var(--red);
 	margin-bottom: 1rem;
 }
@@ -19,7 +16,7 @@
 .home-cont p {
 	font-family: "Roboto Mono";
 	color: var(--black);
-	width: 70ch;
+	max-width: 70ch;
 	margin-bottom: 1.5rem;
 }
 
@@ -67,4 +64,28 @@
 .home-cont button:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
+}
+
+@media screen and (max-width: 1200px) {
+	.home {
+		padding: 14rem 8rem 12rem 8rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.home {
+		padding: 14rem 4rem 12rem 4rem;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	.home {
+		padding: 14rem 2rem 12rem 2rem;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.home {
+		padding: 14rem 1rem 12rem 1rem;
+	}
 }

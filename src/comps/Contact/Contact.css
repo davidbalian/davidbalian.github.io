@@ -1,0 +1,72 @@
+#contact {
+	min-height: fit-content;
+	background-color: var(--black);
+	padding: 14rem 12rem 12rem 12rem;
+}
+
+#contact h1 {
+	color: var(--yellow);
+	margin-bottom: 4rem;
+}
+
+#contact .links {
+	padding: 1rem 6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+#contact .links a {
+	width: fit-content;
+}
+
+.logo-icon {
+	width: 1.5rem;
+	height: auto;
+}
+
+.icon-link {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+	#contact {
+		padding: 14rem 8rem 12rem 8rem;
+	}
+
+	#contact .links {
+		padding: 1rem 4rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#contact {
+		padding: 10rem 4rem 10rem 4rem;
+	}
+
+	#contact .links {
+		padding: 1rem 2rem;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	#contact {
+		padding: 8rem 2rem 8rem 2rem;
+	}
+
+	#contact .links {
+		padding: 1rem 1rem;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#contact {
+		padding: 6rem 1rem 6rem 1rem;
+	}
+
+	#contact .links {
+		padding: 1rem 0rem;
+	}
+}
