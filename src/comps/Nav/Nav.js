@@ -17,7 +17,7 @@ const Nav = () => {
 				<a className='navlink' href='#contact'>
 					Contact
 				</a>
-				<a className='navlink' href='DB_Resume.pdf' download>
+				<a className='navlink' href='./DB_Resume.pdf' download>
 					Resume
 				</a>
 			</div>
