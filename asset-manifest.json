@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d9fb3821.css",
-    "main.js": "/portfolio/static/js/main.3edcd95b.js",
+    "main.css": "/portfolio/static/css/main.264d8ae2.css",
+    "main.js": "/portfolio/static/js/main.fce1f661.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/road-signs-ss.webp": "/portfolio/static/media/road-signs-ss.b833b4b57bd694765c25.webp",
     "static/media/bpm-ss.webp": "/portfolio/static/media/bpm-ss.d72f2767a687b47ea73a.webp",
     "static/media/pomo-ss.webp": "/portfolio/static/media/pomo-ss.29fd763eadd0615445c9.webp",
-    "static/media/git.svg": "/portfolio/static/media/git.ba848c94307d6f64a99b677080dd937d.svg",
-    "static/media/at.svg": "/portfolio/static/media/at.f86934a8ac53ca99a1a5de46e24ee6a9.svg",
-    "static/media/instagram.svg": "/portfolio/static/media/instagram.39b83e26960c7eb89eb031e091f28477.svg",
-    "static/media/linked.svg": "/portfolio/static/media/linked.267c26446318ed414114d44f03a0d9ef.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.0574038d3e6b510d15b23b7c53f9e20a.svg",
+    "static/media/at.svg": "/portfolio/static/media/at.bf0f860166fe77a02e06e02ed6fde3f3.svg",
+    "static/media/instagram.svg": "/portfolio/static/media/instagram.b694782327387e025c4b65b4f43e83cb.svg",
+    "static/media/linked.svg": "/portfolio/static/media/linked.72b8073c94c515d225633682083f0236.svg",
     "index.html": "/portfolio/index.html",
-    "main.d9fb3821.css.map": "/portfolio/static/css/main.d9fb3821.css.map",
-    "main.3edcd95b.js.map": "/portfolio/static/js/main.3edcd95b.js.map",
+    "main.264d8ae2.css.map": "/portfolio/static/css/main.264d8ae2.css.map",
+    "main.fce1f661.js.map": "/portfolio/static/js/main.fce1f661.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9fb3821.css",
-    "static/js/main.3edcd95b.js"
+    "static/css/main.264d8ae2.css",
+    "static/js/main.fce1f661.js"
   ]
 }
