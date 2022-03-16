@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.264d8ae2.css",
-    "main.js": "/portfolio/static/js/main.fce1f661.js",
+    "main.js": "/portfolio/static/js/main.d6c57823.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/road-signs-ss.webp": "/portfolio/static/media/road-signs-ss.b833b4b57bd694765c25.webp",
     "static/media/bpm-ss.webp": "/portfolio/static/media/bpm-ss.d72f2767a687b47ea73a.webp",
@@ -12,11 +12,11 @@
     "static/media/linked.svg": "/portfolio/static/media/linked.72b8073c94c515d225633682083f0236.svg",
     "index.html": "/portfolio/index.html",
     "main.264d8ae2.css.map": "/portfolio/static/css/main.264d8ae2.css.map",
-    "main.fce1f661.js.map": "/portfolio/static/js/main.fce1f661.js.map",
+    "main.d6c57823.js.map": "/portfolio/static/js/main.d6c57823.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264d8ae2.css",
-    "static/js/main.fce1f661.js"
+    "static/js/main.d6c57823.js"
   ]
 }
