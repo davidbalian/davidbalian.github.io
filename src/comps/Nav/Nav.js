@@ -8,9 +8,6 @@ const Nav = () => {
 				<p className='logo'>DB</p>
 			</a>
 			<div className='navlinks'>
-				<a className='navlink' href='#home'>
-					Home
-				</a>
 				<a className='navlink' href='#about'>
 					About
 				</a>
@@ -19,6 +16,9 @@ const Nav = () => {
 				</a>
 				<a className='navlink' href='#contact'>
 					Contact
+				</a>
+				<a className='navlink' href='DB_Resume.pdf' download>
+					Resume
 				</a>
 			</div>
 		</div>
