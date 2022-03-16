@@ -1,8 +1,8 @@
 import React from "react";
 import "./Projects.css";
-import signsImg from "../../imgs/road-signs-ss.png";
-import pomoImg from "../../imgs/pomo-ss.png";
-import bpmImg from "../../imgs/bpm-ss.png";
+import signsImg from "../../imgs/road-signs-ss.webp";
+import pomoImg from "../../imgs/pomo-ss.webp";
+import bpmImg from "../../imgs/bpm-ss.webp";
 
 const Projects = () => {
 	return (

@@ -21,6 +21,7 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto;
 	gap: 8rem;
+	padding: 0 6rem;
 }
 
 .project {
@@ -58,6 +59,7 @@
 
 	.projects-cont {
 		gap: 6rem;
+		padding: 0 4rem;
 	}
 
 	.project {
@@ -73,6 +75,7 @@
 
 	.projects-cont {
 		gap: 4rem;
+		padding: 0 2rem;
 	}
 
 	.project {
@@ -88,6 +91,7 @@
 
 	.projects-cont {
 		gap: 4rem;
+		padding: 0 0;
 	}
 
 	.project {

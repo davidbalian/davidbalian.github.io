@@ -1,0 +1,36 @@
+.footer {
+	background-color: var(--yellow);
+	padding: 0.5rem 12rem;
+}
+
+.footer p {
+	font-family: "Roboto Mono", monospace;
+	color: var(--black);
+}
+
+@media screen and (max-width: 1200px) {
+	.footer {
+		background-color: var(--yellow);
+		padding: 0.5rem 12rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.footer {
+		background-color: var(--yellow);
+		padding: 0.5rem 4rem;
+	}
+}
+
+@media screen and (max-width: 876px) {
+	.footer {
+		background-color: var(--yellow);
+		padding: 0.5rem 2rem;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.footer {
+		padding: 0.5rem 1rem;
+	}
+}
