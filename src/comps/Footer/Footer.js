@@ -1,10 +1,35 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import { ThemeContext } from "../../App";
 import "./Footer.css";
 
+// document.documentElement.style.setProperty("--red", "red");
+
 const Footer = () => {
+	const { theme, setTheme } = useContext(ThemeContext);
+
+	useEffect(() => {
+		if (!theme) {
+			document.documentElement.style.setProperty("--black", "#f5f1ed");
+			document.documentElement.style.setProperty("--yellow", "#0f1108");
+			document.documentElement.style.setProperty("--red", "#7ac7e1");
+		} else {
+			document.documentElement.style.setProperty("--black", "#231f20");
+			document.documentElement.style.setProperty("--yellow", "#f0e7d8");
+			document.documentElement.style.setProperty("--red", "#a63a50");
+		}
+	}, [theme]);
+
 	return (
 		<div className='footer'>
 			<p>Made with &#10084;&#65039; by David Balian</p>
+			<p
+				onClick={() => {
+					setTheme(!theme);
+				}}
+				className='theme-toggle'
+			>
+				click me!!!
+			</p>
 		</div>
 	);
 };
