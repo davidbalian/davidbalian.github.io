@@ -47,6 +47,7 @@ h2 {
 p,
 a {
 	font-family: var(--mono), monospace !important;
+	letter-spacing: 0.02em;
 }
 
 p {
@@ -60,6 +61,7 @@ p {
 	font-family: var(--serif), serif;
 	font-size: 4rem;
 	font-weight: 600;
+	letter-spacing: -0.025em;
 }
 
 @media screen and (max-width: 876px) {
