@@ -3,7 +3,7 @@ import { ThemeContext } from "../../App";
 import "./Footer.css";
 import { ReactComponent as Theme } from "../../imgs/theme.svg";
 
-// document.documentElement.style.setProperty("--red", "red");
+// document.documentElement.style.setProperty("--red", "red")
 
 const Footer = () => {
 	const { theme, setTheme } = useContext(ThemeContext);
