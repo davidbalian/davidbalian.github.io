@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.264d8ae2.css",
-    "main.js": "/portfolio/static/js/main.d6c57823.js",
+    "main.css": "/portfolio/static/css/main.8c603b18.css",
+    "main.js": "/portfolio/static/js/main.dc1cd1f5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/road-signs-ss.webp": "/portfolio/static/media/road-signs-ss.b833b4b57bd694765c25.webp",
     "static/media/bpm-ss.webp": "/portfolio/static/media/bpm-ss.d72f2767a687b47ea73a.webp",
@@ -10,13 +10,15 @@
     "static/media/at.svg": "/portfolio/static/media/at.bf0f860166fe77a02e06e02ed6fde3f3.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.b694782327387e025c4b65b4f43e83cb.svg",
     "static/media/linked.svg": "/portfolio/static/media/linked.72b8073c94c515d225633682083f0236.svg",
+    "static/media/down.svg": "/portfolio/static/media/down.600ee40a8482d49a28d3a8b68a87282b.svg",
     "index.html": "/portfolio/index.html",
-    "main.264d8ae2.css.map": "/portfolio/static/css/main.264d8ae2.css.map",
-    "main.d6c57823.js.map": "/portfolio/static/js/main.d6c57823.js.map",
+    "static/media/theme.svg": "/portfolio/static/media/theme.2cf2fc3358338328fc6c0ef6085f8552.svg",
+    "main.8c603b18.css.map": "/portfolio/static/css/main.8c603b18.css.map",
+    "main.dc1cd1f5.js.map": "/portfolio/static/js/main.dc1cd1f5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.264d8ae2.css",
-    "static/js/main.d6c57823.js"
+    "static/css/main.8c603b18.css",
+    "static/js/main.dc1cd1f5.js"
   ]
 }
