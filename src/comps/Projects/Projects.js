@@ -64,7 +64,7 @@ const Projects = () => {
 						1980s. It uses a timer to break work into intervals, typically 25 minutes in
 						length, separated by short breaks.
 					</p>
-					<p>The site was built using ReactJS and CSS.</p>
+					<p>The site was built using ReactJS, Material UI, and CSS.</p>
 					<div className='links'>
 						<a
 							href='https://davidbalian.github.io/pomodoro/'
