@@ -8,6 +8,9 @@
 	--red: #7ac7e1;
 
 	font-size: 16px;
+
+	--serif: "IBM Plex Serif";
+	--mono: "IBM Plex Mono";
 }
 
 * {
@@ -29,7 +32,7 @@ html {
 	text-decoration: underline;
 	text-decoration-color: var(--red);
 	transition: 0.1s;
-	font-family: "Roboto Mono", monospace;
+	font-family: var(--mono), monospace;
 }
 
 .external-link:hover {
@@ -37,16 +40,26 @@ html {
 }
 
 h2 {
-	font-weight: 500;
+	font-weight: 600;
+	font-family: var(--serif), serif !important;
+}
+
+p,
+a {
+	font-family: var(--mono), monospace !important;
+}
+
+p {
+	line-height: 2 !important;
 }
 
 .about h1,
 .home-cont h1,
 .projects h1,
 #contact h1 {
-	font-family: "Playfair Display", serif;
+	font-family: var(--serif), serif;
 	font-size: 4rem;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 @media screen and (max-width: 876px) {

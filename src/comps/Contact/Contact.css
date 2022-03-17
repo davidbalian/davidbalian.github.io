@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1200px) {
 	#contact {
-		padding: 14rem 8rem 12rem 8rem;
+		padding: 10rem 8rem;
 	}
 
 	#contact .links {
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 1000px) {
 	#contact {
-		padding: 10rem 4rem 10rem 4rem;
+		padding: 8rem 4rem;
 	}
 
 	#contact .links {
@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 876px) {
 	#contact {
-		padding: 8rem 2rem 8rem 2rem;
+		padding: 6rem 2rem;
 	}
 
 	#contact .links {
@@ -63,10 +63,15 @@
 
 @media screen and (max-width: 760px) {
 	#contact {
-		padding: 6rem 1rem 6rem 1rem;
+		padding: 4rem 1rem;
 	}
 
 	#contact .links {
 		padding: 1rem 0rem;
+	}
+
+	#contact h1 {
+		color: var(--yellow);
+		margin-bottom: 3rem;
 	}
 }

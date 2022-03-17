@@ -1,7 +1,7 @@
 .about {
 	min-height: 100vh;
 	background-color: var(--black);
-	padding: 14rem 12rem 12rem 12rem;
+	padding: 10rem 12rem;
 }
 
 .about h1 {
@@ -21,13 +21,13 @@
 
 @media screen and (max-width: 1200px) {
 	.about {
-		padding: 14rem 8rem 12rem 8rem;
+		padding: 10rem 8rem;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	.about {
-		padding: 10rem 4rem 10rem 4rem;
+		padding: 8rem 4rem;
 	}
 
 	.about section {
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 876px) {
 	.about {
-		padding: 8rem 2rem 8rem 2rem;
+		padding: 6rem 2rem;
 	}
 
 	.about section {
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 760px) {
 	.about {
-		padding: 6rem 1rem 6rem 1rem;
+		padding: 4rem 1rem;
 	}
 
 	.about section {

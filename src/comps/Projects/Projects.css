@@ -1,12 +1,12 @@
 .projects {
 	background-color: var(--yellow);
 	min-height: 100vh;
-	padding: 12rem 12rem 12rem 12rem;
+	padding: 10rem 12rem;
 }
 
 .projects h1 {
 	color: var(--red);
-	margin-bottom: 6rem;
+	margin-bottom: 4rem;
 }
 
 .projects h2 {
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 1200px) {
 	.projects {
-		padding: 12rem 8rem 12rem 8rem;
+		padding: 10rem 8rem;
 	}
 
 	.projects-cont {
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 1000px) {
 	.projects {
-		padding: 10rem 4rem 10rem 4rem;
+		padding: 8rem 4rem;
 	}
 
 	.projects-cont {
@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 876px) {
 	.projects {
-		padding: 8rem 2rem 8rem 2rem;
+		padding: 6rem 2rem;
 	}
 
 	.projects-cont {
@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 760px) {
 	.projects {
-		padding: 6rem 1rem 6rem 1rem;
+		padding: 4rem 1rem;
 	}
 
 	.projects-cont {
