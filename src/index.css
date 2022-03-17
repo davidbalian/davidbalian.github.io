@@ -48,7 +48,7 @@ p,
 a,
 .home-cont button {
 	font-family: var(--mono), monospace !important;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.019em;
 	font-size: 1rem;
 }
 
