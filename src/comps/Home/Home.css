@@ -66,6 +66,33 @@
 	transform: scaleX(1);
 }
 
+@keyframes upDown {
+	0% {
+		transform: translate(-50%, -50%);
+	}
+
+	50% {
+		transform: translate(-50%, 25%);
+	}
+
+	100% {
+		transform: translate(-50%, -50%);
+	}
+}
+
+.scroll-arrow {
+	position: absolute;
+	margin: auto;
+	left: 50%;
+	bottom: 7%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	animation-name: upDown;
+	animation-duration: 1s;
+	animation-iteration-count: 5;
+	animation-delay: 2s;
+}
+
 @media screen and (max-width: 1200px) {
 	.home {
 		padding: 14rem 8rem 12rem 8rem;

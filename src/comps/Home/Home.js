@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { ThemeContext } from "../../App";
+import { ReactComponent as Down } from "../../imgs/down.svg";
 import "./Home.css";
 
 const Home = () => {
 	const text = "Hey, I'm David Balian.";
 	const textArray = [...text];
 	const [headingText, setHeadingText] = useState([""]);
+
+	const { theme } = useContext(ThemeContext);
 
 	useEffect(() => {
 		setHeadingText([""]);
@@ -31,6 +35,9 @@ const Home = () => {
 				</p>
 				<a href='#about'>
 					<button>About Me</button>
+				</a>
+				<a href='#about'>
+					<Down className='logo-icon scroll-arrow' fill={theme ? "#231f20" : "#f5f1ed"} />
 				</a>
 			</div>
 		</div>

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { ThemeContext } from "../../App";
 import "./Footer.css";
+import { ReactComponent as Theme } from "../../imgs/theme.svg";
 
 // document.documentElement.style.setProperty("--red", "red");
 
@@ -22,14 +23,13 @@ const Footer = () => {
 	return (
 		<div className='footer'>
 			<p>Made with &#10084;&#65039; by David Balian</p>
-			<p
+			<Theme
+				fill={theme ? "#a63a50" : "#7ac7e1"}
 				onClick={() => {
 					setTheme(!theme);
 				}}
 				className='theme-toggle'
-			>
-				click me!!!
-			</p>
+			/>
 		</div>
 	);
 };

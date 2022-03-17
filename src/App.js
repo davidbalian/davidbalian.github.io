@@ -13,11 +13,11 @@ const App = () => {
 
 	return (
 		<div>
-			<Nav />
-			<Home />
-			<About />
-			<Projects />
 			<ThemeContext.Provider value={{ theme, setTheme }}>
+				<Nav />
+				<Home />
+				<About />
+				<Projects />
 				<Contact />
 				<Footer />
 			</ThemeContext.Provider>
