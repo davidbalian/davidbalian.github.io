@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8b6b0203.css",
-    "main.js": "/portfolio/static/js/main.90951c1a.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/road-signs-ss.webp": "/portfolio/static/media/road-signs-ss.b833b4b57bd694765c25.webp",
-    "static/media/pomo-ss.webp": "/portfolio/static/media/pomo-ss.e3cc8ef36818d1609d67.webp",
-    "static/media/bpm-ss.webp": "/portfolio/static/media/bpm-ss.d72f2767a687b47ea73a.webp",
-    "static/media/git.svg": "/portfolio/static/media/git.0574038d3e6b510d15b23b7c53f9e20a.svg",
-    "static/media/at.svg": "/portfolio/static/media/at.bf0f860166fe77a02e06e02ed6fde3f3.svg",
-    "static/media/instagram.svg": "/portfolio/static/media/instagram.b694782327387e025c4b65b4f43e83cb.svg",
-    "static/media/linked.svg": "/portfolio/static/media/linked.72b8073c94c515d225633682083f0236.svg",
-    "static/media/down.svg": "/portfolio/static/media/down.600ee40a8482d49a28d3a8b68a87282b.svg",
-    "index.html": "/portfolio/index.html",
-    "static/media/theme.svg": "/portfolio/static/media/theme.2cf2fc3358338328fc6c0ef6085f8552.svg",
-    "main.8b6b0203.css.map": "/portfolio/static/css/main.8b6b0203.css.map",
-    "main.90951c1a.js.map": "/portfolio/static/js/main.90951c1a.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.8b6b0203.css",
+    "main.js": "/static/js/main.a4447823.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/road-signs-ss.webp": "/static/media/road-signs-ss.b833b4b57bd694765c25.webp",
+    "static/media/pomo-ss.webp": "/static/media/pomo-ss.e3cc8ef36818d1609d67.webp",
+    "static/media/bpm-ss.webp": "/static/media/bpm-ss.d72f2767a687b47ea73a.webp",
+    "static/media/git.svg": "/static/media/git.0574038d3e6b510d15b23b7c53f9e20a.svg",
+    "static/media/at.svg": "/static/media/at.bf0f860166fe77a02e06e02ed6fde3f3.svg",
+    "static/media/instagram.svg": "/static/media/instagram.b694782327387e025c4b65b4f43e83cb.svg",
+    "static/media/linked.svg": "/static/media/linked.72b8073c94c515d225633682083f0236.svg",
+    "static/media/down.svg": "/static/media/down.600ee40a8482d49a28d3a8b68a87282b.svg",
+    "index.html": "/index.html",
+    "static/media/theme.svg": "/static/media/theme.2cf2fc3358338328fc6c0ef6085f8552.svg",
+    "main.8b6b0203.css.map": "/static/css/main.8b6b0203.css.map",
+    "main.a4447823.js.map": "/static/js/main.a4447823.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b6b0203.css",
-    "static/js/main.90951c1a.js"
+    "static/js/main.a4447823.js"
   ]
 }
