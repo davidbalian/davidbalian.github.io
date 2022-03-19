@@ -1,12 +1,14 @@
 .about {
-	min-height: 100vh;
+	min-height: fit-content;
 	background-color: var(--black);
 	padding: 10rem 12rem;
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	gap: 2rem;
 }
 .about .about-text {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	gap: 1rem;
 	padding: 0rem 6rem;
 }

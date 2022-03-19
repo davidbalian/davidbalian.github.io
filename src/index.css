@@ -71,6 +71,15 @@ p {
 	.home-cont h1,
 	.projects h1,
 	#contact h1 {
-		font-size: 3rem;
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.about h1,
+	.home-cont h1,
+	.projects h1,
+	#contact h1 {
+		font-size: 3rem !important;
 	}
 }
