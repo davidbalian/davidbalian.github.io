@@ -2,21 +2,21 @@
 	min-height: 100vh;
 	background-color: var(--black);
 	padding: 10rem 12rem;
+	display: grid;
+	gap: 2rem;
+}
+.about .about-text {
+	display: grid;
+	gap: 1rem;
+	padding: 0rem 6rem;
 }
 
 .about h1 {
 	color: var(--yellow);
-	margin-bottom: 1rem;
-}
-.about section {
-	padding: 1rem 6rem;
 }
 
 .about p {
-	font-family: "Roboto Mono", monospace;
-	margin-bottom: 1rem;
 	color: var(--yellow);
-	line-height: 3;
 }
 
 @media screen and (max-width: 1200px) {
@@ -30,8 +30,8 @@
 		padding: 8rem 4rem;
 	}
 
-	.about section {
-		padding: 1rem 4rem;
+	.about .about-text {
+		padding: 0rem 4rem;
 	}
 }
 
@@ -40,8 +40,8 @@
 		padding: 6rem 2rem;
 	}
 
-	.about section {
-		padding: 1rem 2rem;
+	.about .about-text {
+		padding: 0rem 2rem;
 	}
 }
 
@@ -50,7 +50,7 @@
 		padding: 4rem 1rem;
 	}
 
-	.about section {
-		padding: 1rem 0em;
+	.about .about-text {
+		padding: 0rem 0rem;
 	}
 }

@@ -21,18 +21,13 @@
 
 .navlinks {
 	display: flex;
-	justify-content: space-between;
+	gap: 1rem;
 	align-items: center;
 }
 
 .navlink {
-	margin-left: 1rem;
 	color: var(--black);
 	text-decoration: none;
-}
-
-.navlink:first {
-	margin-left: 0;
 }
 
 .navlink:hover {
