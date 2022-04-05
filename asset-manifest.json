@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e71e3090.css",
-    "main.js": "/static/js/main.827dcf5a.js",
+    "main.js": "/static/js/main.0c840512.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/road-signs-ss.webp": "/static/media/road-signs-ss.b833b4b57bd694765c25.webp",
     "static/media/pomo-ss.webp": "/static/media/pomo-ss.e3cc8ef36818d1609d67.webp",
@@ -14,11 +14,11 @@
     "index.html": "/index.html",
     "static/media/theme.svg": "/static/media/theme.2cf2fc3358338328fc6c0ef6085f8552.svg",
     "main.e71e3090.css.map": "/static/css/main.e71e3090.css.map",
-    "main.827dcf5a.js.map": "/static/js/main.827dcf5a.js.map",
+    "main.0c840512.js.map": "/static/js/main.0c840512.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e71e3090.css",
-    "static/js/main.827dcf5a.js"
+    "static/js/main.0c840512.js"
   ]
 }
