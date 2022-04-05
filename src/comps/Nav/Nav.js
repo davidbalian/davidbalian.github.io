@@ -19,7 +19,7 @@ const Nav = () => {
 				</a>
 				<a
 					className='navlink'
-					href='https://cdn.jsdelivr.net/gh/davidbalian/davidbalian.github.io/src/comps/Nav/DB_Resume.pdf'
+					href='https://cdn.jsdelivr.net/gh/davidbalian/davidbalian.github.io/src/comps/Nav/David-Balian-Resume.pdf'
 					target='_blank'
 				>
 					Resume
