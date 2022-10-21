@@ -30,8 +30,7 @@ const Home = () => {
 			<div className='home-cont'>
 				<h1>{headingText.join("")}</h1>
 				<p>
-					I am a Computer Engineering student at the Cyprus University of Technology, and
-					an aspiring Web Developer.
+					I am a Web Developer, and aComputer Engineering student at the Cyprus University of Technology.
 				</p>
 				<a href='#about'>
 					<button>About Me</button>
